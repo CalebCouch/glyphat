@@ -1,12 +1,12 @@
 [package]
 name = "glyphat"
-version = "1.0.1"
+version = "2.0.0"
 edition = "2021"
 description = "Simplified version of glyphon"
 license = "BSD-3-Clause"
 repository = "https://github.com/CalebCouch/glyphat.git"
 
 [dependencies]
-glyphon = "0.6.0"
+glyphon = "0.8.0"
 hex = "0.4.3"
-wgpu = "22.1.0"
+wgpu = "24.0.1"
