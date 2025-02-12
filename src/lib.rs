@@ -73,14 +73,14 @@ impl Text {
 #[derive(Clone, Copy, Debug)]
 pub struct TextArea {
     text: Text,
-    z_index: u32,
+    z_index: u16,
     offset: (u32, u32),
     bounds: (u32, u32, u32, u32)
 }
 
 impl TextArea {
     #[allow(clippy::too_many_arguments)]
-    pub fn new(text: Text, z_index: u32, offset: (u32, u32), bounds: (u32, u32, u32, u32)) -> Self {
+    pub fn new(text: Text, z_index: u16, offset: (u32, u32), bounds: (u32, u32, u32, u32)) -> Self {
         TextArea{text, z_index, offset, bounds}
     }
 }
